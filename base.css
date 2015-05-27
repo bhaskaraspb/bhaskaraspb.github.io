@@ -1,0 +1,28 @@
+.name {
+  font-family: 'Slabo 27px', serif;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;  
+}
+
+.tagline {
+  font-size: 16px;
+  font-family: 'Slabo 27px', serif;
+  width: 100%;
+  text-align: center;  
+}
+
+.bio {
+  font-size: 28px;
+  font-family: 'Slabo 27px', serif;
+  width: 100%;
+  text-align: center;    
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color:black;
+}
