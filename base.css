@@ -1,6 +1,82 @@
+a:link {
+  color: black;
+}
+
+a:visited {
+  color:black;
+}
+
+.photo {
+  margin-left: 300px;
+  float: left;
+}
+
+.project-photo {
+  margin-left: 310px;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.spacing {
+  width: 100%;
+  height: 100px;
+}
+
+.project-desc {
+  font-size: 20px;
+  font-family: 'Slabo 27px', serif;
+  width: 60%;
+  margin-left: 310px;
+/*  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;  
+*/  
+text-align: justify;
+}
+
+.short-intro {
+  font-size: 28px;
+  font-family: 'Slabo 27px', serif;
+  width: 40%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;
+  text-align: justify;
+}
+
+.bio {
+  font-size: 28px;
+  font-family: 'Slabo 27px', serif;
+  width: 100%;
+  text-align: center;    
+  display: inline-block;
+}
+
+.work-desc {
+  font-size: 28px;
+  font-family: 'Slabo 27px', serif;
+  width: 52%;
+  text-align: justify;    
+  display: inline-block;
+  margin-left: 290px;
+}
+
+.project {
+  width: 80%;
+/*  display: inline-block;
+*/}
+
 .name {
   font-family: 'Slabo 27px', serif;
   font-size: 60px;
+  width: 100%;
+  text-align: center;  
+}
+
+.heading {
+  font-family: 'Slabo 27px', serif;
+  font-size: 40px;
   width: 100%;
   text-align: center;  
 }
@@ -10,19 +86,4 @@
   font-family: 'Slabo 27px', serif;
   width: 100%;
   text-align: center;  
-}
-
-.bio {
-  font-size: 28px;
-  font-family: 'Slabo 27px', serif;
-  width: 100%;
-  text-align: center;    
-}
-
-a:active {
-  color: black;
-}
-
-a:visited {
-  color:black;
 }
