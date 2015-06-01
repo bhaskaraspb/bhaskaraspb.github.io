@@ -81,7 +81,7 @@ a.header-name {
   width: 100%;
   font-family: 'Slabo 27px', serif;
   background-color: #FFFFFF;
-  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid black;*/
 }
 
 .work-container h1, h2, h3{
@@ -141,9 +141,12 @@ a.header-name {
 }
 */
 .blog-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
-  background-color: #FFFFFF;
-  border-bottom: 2px solid black;
+/*  background-color: #D8D8D8;*/
+  background-color: #F4F4F4;
+  /*border-bottom: 2px solid black;*/
   text-align: center;
 }
 
@@ -159,15 +162,20 @@ a.header-name {
 .contact-container {
   width: 100%;
   background-color: #FFFFFF;
-  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid black;*/
   text-align: center;
 }
 
 .footer {
+  padding-top: 5px;
+  padding-bottom: 2px;
   text-align: center;
   display: block;
   vertical-align: baseline;
   font-family: 'Slabo 27px', serif;  
+  background-color: #F4F4F4;
+/*  color: white;
+  background-color: black;*/
 }
 
 .footer ul {
@@ -178,6 +186,10 @@ a.header-name {
 .footer li {
   display: inline;
   padding-right: 10px;
+}
+
+p#copyright {
+  margin-bottom: 0px;
 }
 
 /* OLD CSS */
