@@ -1,20 +1,47 @@
 body {
   margin: 0 0 0 0;
+  font-family: 'Slabo 27px', serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
   color: black;
   background-color: white;
-  height: 40px;
+  height: 30px;
   width: 100%;
   border-bottom: 2px solid black;
   padding-top: 10px;
+  margin-top: 5px;
   padding-left: 5px;
 }
 
-a.logo {
+.nav-right {
+  float:right;
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 300px;
+  width: 200px;
+}
+
+nav li {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+a.header-name {
   color: black;
   background-color: white;
+  font-family: 'Slabo 27px', serif;
+  text-decoration: none;
+  padding-left: 10px;
 }
 
 .banner-container {
@@ -50,7 +77,7 @@ a.logo {
   width: 100%;
   font-family: 'Slabo 27px', serif;
   background-color: #FFFFFF;
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
 }
 
 .work-container h1, h3{
@@ -68,25 +95,80 @@ a.logo {
   float: left;
 }
 
+.work-item img {
+  display: block;
+  float: left;
+}
+
+.project-writing{
+  display: block;
+  position: absolute;
+  width: 344px;
+  height: 344px;
+  text-align: center;
+  background: rgba(0,0,0,0.85);
+  color: white;
+  opacity: 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+}
+
+.project-writing:hover{
+  opacity: 1;
+}
+
+
+/*#carla-text {
+  width: 344px;
+  height: 344px;
+  z-index: 0;
+}
+*/
+/*#carla-text:hover {
+  z-index: 9999;
+}
+*/
+
+/*#project-carla:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('CarlaScreenshot.png');;
+}*/
+
+/*img:hover {
+  border: 5px solid black;
+}
+*/
 .blog-container {
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #FFFFFF;
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
 }
 
 .contact-container {
   height: 200px;
   width: 100%;
   background-color: #FFFFFF;
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
 }
 
 .footer {
-  height: 50px;
-  width: 100%;
-  background-color: #00CCFF;
+  text-align: center;
+  display: block;
+  vertical-align: baseline;
+  font-family: 'Slabo 27px', serif;  
 }
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  display: inline;
+  padding-right: 10px;
+}
+
 /* OLD CSS */
 
 a:link {

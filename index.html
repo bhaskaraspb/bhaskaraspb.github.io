@@ -1,64 +1,108 @@
+<!DOCTYPE html>
 <html>
-<body bgcolor="#F6F5ED">
-<link rel="stylesheet" type="text/css" href="base.css"/>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<head>
+  <title>Sush B</title>
+  <link rel="stylesheet" type="text/css" href="base.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="base.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="icon" href="favicon-rocket.ico">
+</head>
+</html>
 
-<script type="text/javascript" src="base.js"></script>
+<body>
+<nav>
+  <a class="header-name" href="index.html">
+    <i class="fa fa-rocket icon-2x" style="margin-right:5px;"></i>
+    Sushanth Bhaskarabhatla
+  </a>
+  <span class="nav-right"><a href="#contact-section">Contact Me</a>
+  </span>    
+  <span class="nav-right"><a href="#blog-section">Blog</a>
+  </span>    
+  <span class="nav-right"><a href="#work-section">Work</a>
+  </span>    
 
-<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-<div class="name"> Sushanth Bhaskarabhatla </div>
-<div class="bio"> <a href="index.html#work">My Work</a> <!-- | <a href="musings.html">Random Musings</a>  -->| <a href="https://bhaskaraspb.wordpress.com/">Tech Blog</a> | <a href="about.html">About Me</a> </div>
+</nav>
 
-<hr width="50%">
-<br>
-<div class="photo"><img src="headshot_circle.png" width="150"></img></div>
-
-<div class="short-intro"> Hi there! I'm Sush, and I'm a developer based in New York. I'm passionate about building products users love and writing clean, concise code. </div>
-<!-- <div class="bio"> I'm primarily a Ruby on Rails developer, but I have also built iOS apps. </div>
-<div class="bio"> My past work has ranged from building <a href="#missql">games</a> to an <a href="#carla">SMS-based personal assistant.</a> </div>
-<div class="bio">I also <a href="blog.html">write</a> here on tech, coding, and random musings.</div>
- --><!-- <div class="bio">My work</div>
- -->
-<br>
-<br>
-<hr width="50%">
-<br>
-<div class="heading" id="work"> My Work </div>
-<br>
-<div class="work-desc"> My past work has ranged from building <a href="#missql">games</a> to an <a href="#carla">SMS-based personal assistant.</a> I am primarily a Ruby on Rails developer, but I also have experience with Swift/iOS and MATLAB. </div>
-
-<br>
-<br>
-<br>
-<br>
-
-<div class="project">
-  <div class="project-photo"> 
-    <a href="http://carla.io" target="_blank"><img src="CarlaIcon.png" width="100" align="left"></img></a> 
-  </div> 
-  <div class="project-desc" id="carla"><a href="http://carla.io" target="_blank">Carla</a> is a text-message based personal assistant. With a single text, you can set a reminder for yourself or a friend, start a daily journal, and do more. <br> Featured on <a href="https://www.producthunt.com/posts/carla" target="_blank">Product Hunt</a> in May 2015. </div>
-</div> 
-
-<div class="spacing"></div>
-
-<div class="project">
-  <div class="project-photo" style="margin-top:20px">
-    <a href="http://missqlcommand.com" target="_blank"><img src="missqlcommand.png" width="250" align="left"></img></a>
+<div class="banner-container">
+  <div class="banner-headshot"><img src="headshot_circle.png" width="150"></img></div>
+  <div class="banner-text">
+    Hi I'm Sush. I'm a developer based in New York City. 
   </div>
-     <div class="project-desc" id="missql"> <a href="http://missqlcommand.com" target="_blank">MissqlCommand</a> is a Codecademy-like game for learning SQL. Over the course of 10 levels, you'll save the world from nuclear annihilation using SQL queries. 
-     </div>
-   </div> 
+</div>
 
+<div class="work-container">
+  <h1 id="work-section">My work</h1>
+  <h3>I'm passionate about building products users love and writing clean, concise code.</h3> <br>
+  <ul class="work-list">
+    <li class="work-item">
+      <a href="http://carla.io" target="_blank">
+        <img src="CarlaScreenshot.png">
+        <div class="project-writing"> 
+          <br>
+          <h2>Carla</h2>
+          <br>
+          <br>
+          <h4>An SMS-based personal assistant.</br>
+        </div>
+      </a>
+<!--       <div id="carla-text">
+      </div>        
+ -->    </li>
+    <li class="work-item">
+      <a href="http://missqlcommand.com" target="_blank">
+        <img src="missql2.png"/>
+        <div class="project-writing"> 
+          <br>
+          <h2>MissqlCommand</h2>
+          <br>
+          <br>
+          <h4>A game to learn SQL.</br>
+        </div>
+      </a>
+    </li>
+    <li class="work-item">
+      <a href="http://looseleaf.me" target="_blank">
+        <img src="looseleaf2.png"/>
+        <div class="project-writing"> 
+          <br>
+          <h2>Looseleaf</h2>
+          <br>
+          <br>
+          <h4>D3.js-powered visualizations of stories.</br>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
 
-<div class="spacing"></div>
+<div class="blog-container" id="blog-section">
+  <h1>Some of my writing.</h1>
+  <h3>I like to write about programming, technology, and philosophy.</h3> <br>
+</div>
 
-<div class="project"><div class="project-photo"><img src="looseleaf.png" width="250"></img></div><div class="project-desc"><a href="http://looseleaf.me" target="_blank">Looseleaf</a> is a D3.js-powered collaborative way to visualize stories. Looseleaf began with a question: what would a story look like if you wrote it with hundreds of collaborators? Start a story, share it with your friends, and visualize the results.</div></div>
+<div class="contact-container" id="contact-section">
+  <h1>Get in touch!</h1>
+  <h3>The easiest way is to <a href="mailto:bhaskaraspb@gmail.com?subject=Hello!">email</a> me.</h3>
+  <h3>I also tweet from <a href="http://twitter.com/bhaskaraspb" target="_blank">@bhaskaraspb</a>.</h3>
+</div>
 
-<div class="spacing"></div>
-
-<div class="project"><div class="project-photo"><img src="ANN.png" width="200"></img></div><div class="project-desc">During my studies at the <a href="http://www.upenn.edu/" target="_blank">University of Pennsylvania</a>, I worked as a research assistant in the Penn Neurophysics Lab, and developed a technique using Artificial Neural Network's to successfully distinguish and classify by cell type neural spikes from the retina. You can view my paper <a href="https://www.dropbox.com/s/mcqua2l644orydn/SushanthB_Penn_Neurophysics_Final_Writeup.docx.pdf?dl=0">here</a>.</div></div>
-
-<div class="spacing"></div>
+<div class="footer">
+        
+  <ul id="social">
+      <li><a href="http://www.github.com/bhaskaraspb" target="_blank"><i class="fa fa-github icon-2x"></i></a>
+      </li>
+      <li><a href="http://www.linkedin.com/in/bhaskaraspb" target="_blank"><i class="fa fa-linkedin icon-2x"></i></a>
+      </li>
+      <li><a href="http://twitter.com/bhaskaraspb" target="_blank"><i class="fa fa-twitter icon-2x"></i></a>
+       </li>
+      <li><a href="http://medium.com/@bhaskaraspb" target="_blank"><i class="fa fa-medium icon-2x"></i></a>
+  </ul>
+            
+  <p id="copyright">&copy; 2015 Sushanth Bhaskarabhatla. All rights reserved.</p>
+        
+</div>
 
 </body>
-</html>
