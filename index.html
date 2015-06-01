@@ -10,6 +10,7 @@
   <script type="text/javascript" src="base.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="icon" href="favicon-rocket.ico">
+
 </head>
 </html>
 
@@ -19,11 +20,11 @@
     <i class="fa fa-rocket icon-2x" style="margin-right:5px;"></i>
     Sushanth Bhaskarabhatla
   </a>
-  <span class="nav-right"><a href="#contact-section">Contact Me</a>
+  <span class="nav-right"><a id="contact-nav" href="index.html">Contact Me</a>
   </span>    
-  <span class="nav-right"><a href="#blog-section">Blog</a>
+  <span class="nav-right"><a id="blog-nav" href="index.html">Blog</a>
   </span>    
-  <span class="nav-right"><a href="#work-section">Work</a>
+  <span class="nav-right"><a id="work-nav" href="index.html">Work</a>
   </span>    
 
 </nav>
@@ -116,4 +117,18 @@
 </div>
 
 </body>
+<script>
+  $('#work-nav').click(function () {
+      $('body,html').animate({ scrollTop: $('#work-section').offset().top }, 500);
+      return false;
+  });
+  $('#contact-nav').click(function () {
+    $('body,html').animate({ scrollTop: $('#contact-section').offset().top }, 500);
+    return false;
+  });
+  $('#blog-nav').click(function () {
+    $('body,html').animate({ scrollTop: $('#blog-section').offset().top }, 500);
+    return false;
+  });
+</script>
 </html>
