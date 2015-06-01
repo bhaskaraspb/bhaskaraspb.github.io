@@ -11,6 +11,10 @@ a {
   color:white;
 }
 
+span#banner {
+  position: fixed;
+}
+
 nav {
   color: black;
   background-color: white;
@@ -59,19 +63,26 @@ a.header-name {
 .banner-headshot {
   padding-top: 10px;
   margin-top: 150px;
-  width: 200px;
+  /*width: 200px;*/
   display: inline-block;
   margin-left: 350px;
 }
 
-.banner-text {  
+.banner-headshot img{
+  vertical-align: bottom;
+}
+
+.banner-headshot span{  
   color: white;
   font-size: 36px;
-  margin-left: 0px;
+  width: 300px;
+  padding-top: 15px;
+  margin-left: 30px;
+/*  margin-left: 0px;
   margin-bottom: 20px;
   padding-top: 170px;
   width: 300px;
-  font-family: 'Slabo 27px', serif;
+*/  font-family: 'Slabo 27px', serif;
   display: inline-block;
   /*position: fixed;*/
 }
@@ -181,6 +192,7 @@ a.header-name {
 .footer ul {
   list-style: none;
   text-align: center;
+  padding-right: 30px;
 }
 
 .footer li {
