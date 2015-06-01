@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+#project-link{
+  color:white;
+}
+
 nav {
   color: black;
   background-color: white;
@@ -47,9 +51,9 @@ a.header-name {
 .banner-container {
   height: 500px;
   width: 100%;
-  background-color: #00CCFF;
+  /*background-color: #000000;*/
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("locust_walk.png");
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
 }
 
 .banner-headshot {
@@ -80,7 +84,7 @@ a.header-name {
   border-bottom: 2px solid black;
 }
 
-.work-container h1, h3{
+.work-container h1, h2, h3{
   text-align: center;
 }
 
@@ -117,7 +121,6 @@ a.header-name {
   opacity: 1;
 }
 
-
 /*#carla-text {
   width: 344px;
   height: 344px;
@@ -138,15 +141,22 @@ a.header-name {
 }
 */
 .blog-container {
-  height: 150px;
   width: 100%;
   background-color: #FFFFFF;
   border-bottom: 2px solid black;
   text-align: center;
 }
 
+.blog-post-titles {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+.blog-container a{
+  /*text-decoration: underline*/
+}
+
 .contact-container {
-  height: 200px;
   width: 100%;
   background-color: #FFFFFF;
   border-bottom: 2px solid black;
@@ -162,6 +172,7 @@ a.header-name {
 
 .footer ul {
   list-style: none;
+  text-align: center;
 }
 
 .footer li {
